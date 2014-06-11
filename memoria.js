@@ -53,8 +53,7 @@ function reiniciarJuego() {
     $("#contador").html("" + count);
     idImg = "";
     imgAbierta = "";
-    found = 0;
-    $("#timer").html("0");
+    found = 0;    $("#timer").html("0");
     clearTimeout(timerId);
     contadorTiempo();
     return false;
