@@ -1,6 +1,6 @@
 #imagenes {
     margin: 0 auto;
-    width: 490px;
+    width: 480px auto;
     z-index: 1;
 }
 
@@ -9,12 +9,12 @@
     width: 75px;
     height: 52px;
     background: #ff8000;
-    margin: 5px;
-    padding: 5px;
+    margin: 1px;
+    padding: 1px;
     border: 1px solid #999;
     cursor: pointer;
     border-radius: .5em;
-    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    box-shadow: 0 1px 1px rgba(0,0,0,.5);
     z-index: 2;
 }
 
@@ -25,7 +25,7 @@
 
 #botonera{
     text-align: center;
-    padding: 15px;
+    padding: 5px;
 }
 
 .opacity {
