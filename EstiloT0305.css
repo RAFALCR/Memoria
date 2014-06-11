@@ -1,13 +1,13 @@
 #imagenes {
     margin: 0 auto;
-    width: 480px auto;
+    width: 450px;
     z-index: 1;
 }
 
 #imagenes div {
     float: left;
-    width: 75px;
-    height: 52px;
+    width: 80px;
+    height: 55px;
     background: #ff8000;
     margin: 1px;
     padding: 1px;
