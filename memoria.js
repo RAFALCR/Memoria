@@ -109,9 +109,9 @@ $(document).ready(function() {
             $("#contador").html("" + count);
 
             if (found == 10) {
-                msg = '<span id="msg1">Has finalizado el juego en </span>';
+                msg = '<span id="msg1">Lo hiciste en </span>';
                 $("#msgContador").prepend(msg);
-                msg = '<span id="msg2">Has finalizado el juego en </span>';
+                msg = '<span id="msg2">Terminaste en </span>';
                 $("#msgTimer").prepend(msg);
             }
         }
